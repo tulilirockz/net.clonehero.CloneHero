@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2026 First Lastname <your@email.com> -->
 <component type="desktop-application">
   <id>net.clonehero.CloneHero</id>
   <metadata_license>FSFAP</metadata_license>
   <project_license>LicenseRef-proprietary=https://clonehero.net/eula/</project_license>
+
   <name>Clone Hero</name>
   <summary>Classic instrument based rhythm game</summary>
-
   <description>
     <p>
       **This is a community package of Clone Hero and not officially supported
@@ -24,57 +23,97 @@
     <name>Clone Hero Development Team</name>
   </developer>
 
-  <content_rating type="oars-1.1" />
   <url type="homepage">https://clonehero.net</url>
+
+  <content_rating type="oars-1.1" />
   <launchable type="desktop-id">net.clonehero.CloneHero.desktop</launchable>
+
+  <branding>
+    <color type="primary" scheme_preference="light">#ffbe6f</color>
+    <color type="primary" scheme_preference="dark">#c11c2b</color>
+  </branding>
 
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/ignapk/net.clonehero.CloneHero/a42b1511aa01b64304f252352fa8d5ab51cfaec6/images/main.png</image>
+      <image>https://github.com/user-attachments/assets/1151469a-aa9f-49cf-ab5c-4c286854fe03</image>
+      <description>Clone Hero title screen</description>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/ignapk/net.clonehero.CloneHero/a42b1511aa01b64304f252352fa8d5ab51cfaec6/images/choose_song.png</image>
+      <image>https://github.com/user-attachments/assets/5b25d31c-292b-4810-82d4-e218fc8a8bde</image>
+      <description>Song chooser screen</description>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/ignapk/net.clonehero.CloneHero/a42b1511aa01b64304f252352fa8d5ab51cfaec6/images/gameplay.png</image>
+      <image>https://github.com/user-attachments/assets/488d954c-2f45-4727-aa25-9e05d27f9413</image>
+      <description></description>
     </screenshot>
   </screenshots>
 
-  <url type="homepage">http://clonehero.net</url>
-
   <releases>
-    <release version="1.0.0.4080" date="2023-08-13">
-      <description>
-        <p>Changelog</p>
-        <ul>
-          <li>Add drum instrument</li>
-          <li>Add drum instrument</li>
-          <li>Add midi input for drums</li>
-          <li>Add Brutal mode modifier</li>
-          <li>Add Double Notes modifier</li>
-          <li>Add Precision mode modifier</li>
-          <li>Add no ghosting modifier</li>
-          <li>Add dropless sustains modifier</li>
-          <li>Add Whammy SFX to guitar/bass on songs with stems</li>
-          <li>Add Song Path Manager in settings</li>
-          <li>Add Monitor switcher in settings</li>
-          <li>Add Color Profiles</li>
-          <li>Add Color Profiles Editor</li>
-          <li>Add Public Online Servers</li>
-          <li>Add Versus Mode</li>
-          <li>Improve Practice Mode UI</li>
-          <li>Add 15 new songs</li>
-          <li>Performance optimizations for song scanning 5x faster!</li>
-          <li>Performance optimizations to custom content scanning</li>
-          <li>Performance optimizations for song list export 10x faster!</li>
-          <li>Performance optimizations for lyrics display</li>
-          <li>Add hosted Online servers with server browser</li>
-          <li>Add song list filtering</li>
-          <li>17 built in songs!</li>
-          <li>Visual improvements</li>
-          <li>Much much more!</li>
-        </ul>
-      </description>
+    <release version="3.12.2" date="2013-04-12">
+      <url type="details">https://github.com/clonehero-game/releases/tag/3.12.2</url>
+    </release>
+    <release version="v1.1.0.4261-PTB" date="2023-10-25">
+      <url type="details">https://github.com/clonehero-game/releases/tag/v1.1.0.4261-PTB</url>
+    </release>
+    <release version="v1.1.0.5891-PTB" date="2026-02-18">
+      <url type="details">https://github.com/clonehero-game/releases/tag/v1.1.0.5891-PTB</url>
+    </release>
+    <release version="v1.1.0.5684-PTB" date="2026-01-16">
+      <url type="details">https://github.com/clonehero-game/releases/tag/v1.1.0.5684-PTB</url>
+    </release>
+    <release version="v1.1.0.5655-ptb" date="2026-01-08">
+      <url type="details">https://github.com/clonehero-game/releases/tag/v1.1.0.5655-ptb</url>
+    </release>
+    <release version="v1.1.0.5520-PTB" date="2025-12-24">
+      <url type="details">https://github.com/clonehero-game/releases/tag/v1.1.0.5520-PTB</url>
+    </release>
+    <release version="v1.1.0.4990-PTB" date="2025-05-21">
+      <url type="details">https://github.com/clonehero-game/releases/tag/v1.1.0.4990-PTB</url>
+    </release>
+    <release version="V0.16.1.0" date="2023-08-13">
+      <url type="details">https://github.com/clonehero-game/releases/tag/V0.16.1.0</url>
+    </release>
+    <release version="V0.18.2.0" date="2023-08-13">
+      <url type="details">https://github.com/clonehero-game/releases/tag/V0.18.2.0</url>
+    </release>
+    <release version="V0.20.0.0" date="2023-08-13">
+      <url type="details">https://github.com/clonehero-game/releases/tag/V0.20.0.0</url>
+    </release>
+    <release version="V0.21.6.0" date="2023-08-13">
+      <url type="details">https://github.com/clonehero-game/releases/tag/V0.21.6.0</url>
+    </release>
+    <release version="V0.21.7.0" date="2023-08-13">
+      <url type="details">https://github.com/clonehero-game/releases/tag/V0.21.7.0</url>
+    </release>
+    <release version="V0.22.1.0" date="2023-08-13">
+      <url type="details">https://github.com/clonehero-game/releases/tag/V0.22.1.0</url>
+    </release>
+    <release version="V0.22.2.0" date="2023-08-13">
+      <url type="details">https://github.com/clonehero-game/releases/tag/V0.22.2.0</url>
+    </release>
+    <release version="V0.22.3.0" date="2023-08-13">
+      <url type="details">https://github.com/clonehero-game/releases/tag/V0.22.3.0</url>
+    </release>
+    <release version="V0.22.4.0" date="2023-08-13">
+      <url type="details">https://github.com/clonehero-game/releases/tag/V0.22.4.0</url>
+    </release>
+    <release version="V0.22.5.0" date="2023-08-13">
+      <url type="details">https://github.com/clonehero-game/releases/tag/V0.22.5.0</url>
+    </release>
+    <release version="V0.23.1.0" date="2023-08-13">
+      <url type="details">https://github.com/clonehero-game/releases/tag/V0.23.1.0</url>
+    </release>
+    <release version="V0.23.2.0" date="2023-08-13">
+      <url type="details">https://github.com/clonehero-game/releases/tag/V0.23.2.0</url>
+    </release>
+    <release version="V0.23.2.1" date="2023-08-13">
+      <url type="details">https://github.com/clonehero-game/releases/tag/V0.23.2.1</url>
+    </release>
+    <release version="V0.23.2.2" date="2023-08-13">
+      <url type="details">https://github.com/clonehero-game/releases/tag/V0.23.2.2</url>
+    </release>
+    <release version="V1.0.0.4080" date="2023-08-13">
+      <url type="details">https://github.com/clonehero-game/releases/tag/V1.0.0.4080</url>
     </release>
   </releases>
 </component>
