@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2026 First Lastname <your@email.com> -->
+<component type="desktop-application">
+  <id>net.clonehero.CloneHero</id>
+  <metadata_license>FSFAP</metadata_license>
+  <project_license>LicenseRef-proprietary=https://clonehero.net/eula/</project_license>
+  <name>Clone Hero</name>
+  <summary>Classic instrument based rhythm game</summary>
+
+  <description>
+    <p>
+      **This is a community package of Clone Hero and not officially supported
+      by Clone Hero Development Team.**
+    </p>
+    <p>
+      Clone Hero is a classic instrument based rhythm game for Windows, Mac,
+      Linux, and Android. It's playable with any 5 or 6 fret guitar controller,
+      any midi drum kit, any game controller and even your keyboard! Jam out with
+      Drums, 5-fret Guitar, or 6-fret Guitar online or local!
+    </p>
+  </description>
+
+  <developer id="net.clonehero">
+    <name>Clone Hero Development Team</name>
+  </developer>
+
+  <content_rating type="oars-1.1" />
+  <url type="homepage">https://clonehero.net</url>
+  <launchable type="desktop-id">net.clonehero.CloneHero.desktop</launchable>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/ignapk/net.clonehero.CloneHero/a42b1511aa01b64304f252352fa8d5ab51cfaec6/images/main.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/ignapk/net.clonehero.CloneHero/a42b1511aa01b64304f252352fa8d5ab51cfaec6/images/choose_song.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/ignapk/net.clonehero.CloneHero/a42b1511aa01b64304f252352fa8d5ab51cfaec6/images/gameplay.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">http://clonehero.net</url>
+
+  <releases>
+    <release version="1.0.0.4080" date="2023-08-13">
+      <description>
+        <p>Changelog</p>
+        <ul>
+          <li>Add drum instrument</li>
+          <li>Add drum instrument</li>
+          <li>Add midi input for drums</li>
+          <li>Add Brutal mode modifier</li>
+          <li>Add Double Notes modifier</li>
+          <li>Add Precision mode modifier</li>
+          <li>Add no ghosting modifier</li>
+          <li>Add dropless sustains modifier</li>
+          <li>Add Whammy SFX to guitar/bass on songs with stems</li>
+          <li>Add Song Path Manager in settings</li>
+          <li>Add Monitor switcher in settings</li>
+          <li>Add Color Profiles</li>
+          <li>Add Color Profiles Editor</li>
+          <li>Add Public Online Servers</li>
+          <li>Add Versus Mode</li>
+          <li>Improve Practice Mode UI</li>
+          <li>Add 15 new songs</li>
+          <li>Performance optimizations for song scanning 5x faster!</li>
+          <li>Performance optimizations to custom content scanning</li>
+          <li>Performance optimizations for song list export 10x faster!</li>
+          <li>Performance optimizations for lyrics display</li>
+          <li>Add hosted Online servers with server browser</li>
+          <li>Add song list filtering</li>
+          <li>17 built in songs!</li>
+          <li>Visual improvements</li>
+          <li>Much much more!</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+</component>
